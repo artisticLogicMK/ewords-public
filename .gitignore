@@ -1,0 +1,18 @@
+# Ignore everything
+*
+
+# Allow all directories so we can allow specific files inside
+!*/
+
+# Allow this .gitignore file
+!.gitignore
+
+# Allow entire Controllers folder and its contents
+!app/
+!app/Http/
+!app/Http/Controllers/
+!app/Http/Controllers/**
+
+# Allow resources folder and its contents
+!resources/
+!resources/**
